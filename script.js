@@ -44,6 +44,11 @@ const responses = {
     "vinyasa yoga": "Vinyasa yoga is a dynamic style of yoga that links breath to movement. It's perfect for athletes looking to build strength and flexibility while moving through sequences of poses.",
     "hatha yoga": "Hatha yoga is a gentle form of yoga that focuses on basic postures and breathing techniques. It’s great for beginners or athletes looking for a slower-paced practice.",
     "ashtanga yoga": "Ashtanga yoga is a more vigorous style of yoga that follows a set sequence of poses. It’s excellent for building strength, flexibility, and endurance.",
+    "warm-up": "A good warm-up for sports yoga includes dynamic stretches like leg swings, arm circles, and lunges. It helps increase blood flow and flexibility.",
+    "poses": "Some essential yoga poses for athletes are Downward Dog, Child's Pose, Warrior, and Cobra. These stretches help enhance flexibility, strength, and balance.",
+    "breathing": "Breathing exercises such as diaphragmatic breathing and Ujjayi pranayama are perfect for athletes. They help with relaxation and performance.",
+    "cooldown": "For a cooldown, poses like Forward Fold, Seated Twist, and Supine Hamstring Stretch can help relax the body and reduce muscle tension.",
+    "default": "I'm sorry, I didn't understand that. Could you ask something else related to sports yoga?"
     "power yoga": "Power yoga is a faster-paced, high-intensity yoga style that builds strength and endurance. It's great for athletes looking to challenge their bodies and improve performance.",
     "yoga for athletes": "Yoga for athletes helps enhance physical performance, improve flexibility, prevent injuries, and calm the mind for better focus and recovery.",
     "yoga for mental focus": "Yoga enhances mental clarity and focus through breathwork and meditation. Practices like Ujjayi breath and mindfulness improve concentration, which is key for athletes.",
@@ -56,11 +61,9 @@ const responses = {
     "self-care": "Yoga is an excellent form of self-care, combining physical exercise with mental relaxation techniques. Regular practice helps maintain overall well-being.",
     "strengthening yoga": "Strengthening yoga includes poses that target muscle groups, such as Plank, Warrior, and Downward Dog, to improve endurance, stability, and power.",
     "yoga for flexibility and mobility": "Yoga improves flexibility and mobility through stretching and strengthening exercises, enhancing the range of motion and reducing muscle tightness.",
-    "warm-up": "A good warm-up for sports yoga includes dynamic stretches like leg swings, arm circles, and lunges. It helps increase blood flow and flexibility.",
-    "poses": "Some essential yoga poses for athletes are Downward Dog, Child's Pose, Warrior, and Cobra. These stretches help enhance flexibility, strength, and balance.",
-    "breathing": "Breathing exercises such as diaphragmatic breathing and Ujjayi pranayama are perfect for athletes. They help with relaxation and performance.",
-    "cooldown": "For a cooldown, poses like Forward Fold, Seated Twist, and Supine Hamstring Stretch can help relax the body and reduce muscle tension.",
-    "default": "I'm sorry, I didn't understand that. Could you ask something else related to sports yoga?"
+    "core strength": "Yoga poses like Plank, Boat Pose, and Warrior III are great for building core strength, which is essential for stability and injury prevention in sports.",
+    "yoga for injury prevention": "Yoga helps prevent injuries by improving flexibility, strength, and balance, which reduce the risk of strain and improve body alignment during physical activity.",
+    "yoga for better sleep": "Yoga can improve sleep quality by relaxing the body and mind, reducing stress, and promoting a deeper sleep cycle. Poses like Legs Up the Wall and Child’s Pose are great before bed."
 };
 
 // Function to send user message and show response
