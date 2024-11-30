@@ -16,6 +16,7 @@ A simple, interactive Sports Yoga Chatbot that provides information on yoga pose
 Here's a short video demo of the Sports Yoga Chatbot in action:
 
 https://github.com/user-attachments/assets/04b1ddc6-9ccb-47f9-9d7a-7963fd1abb98
+[Main Link](https://sports-yoga-bot.vercel.app/)
 
 ## Getting Started
 
