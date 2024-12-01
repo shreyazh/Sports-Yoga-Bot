@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chat-container {
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.chatbox {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid #3e8e41;
+}
+
+.header h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.header p {
+    font-size: 0.9em;
+    margin-top: 0;
+}
+
+.messages {
+    padding: 20px;
+    flex-grow: 1;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+    border-bottom: 2px solid #ddd;
+}
+
+.message {
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 15px;
+    max-width: 80%;
+    font-size: 1.1em;
+}
+
+.bot-message {
+    background-color: #e0e0e0;
+    color: #333;
+    align-self: flex-start;
+    border-radius: 15px 15px 0 15px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-message {
+    background-color: #4caf50;
+    color: white;
+    align-self: flex-end;
+    border-radius: 15px 15px 15px 0;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-input {
+    display: flex;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-top: 2px solid #ddd;
+    justify-content: space-between;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 12px;
+    border-radius: 30px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: all 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+button:focus {
+    outline: none;
+}
