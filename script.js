@@ -1,3 +1,4 @@
+// Author : SHREYASH SRIVASTVA 
 // Chatbot response JSON data
 const responses = {
     "hello": "Hello! I'm here to guide you through yoga for sports performance. What would you like to know?",
